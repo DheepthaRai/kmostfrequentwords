@@ -1,8 +1,8 @@
 from collections import Counter
 
-k = input('How many frequent words do you want to find?')
+k = int(input('How many frequent words do you want to find?'))
 
-F=open("text.txt","r")
+F = open("text.txt","r")
 data = F.read()
 F.close()
 
